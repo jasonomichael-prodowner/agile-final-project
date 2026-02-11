@@ -17,7 +17,7 @@ assignees: ''
  ### Acceptance Criteria  
    
  ```gherkin
- Given [some context]
- When [certain action is taken]
- Then [the outcome of action is observed]
+Given no product exists with the provided product ID
+When I submit a request to like the product
+Then the system should return a not found response
  ```
